@@ -36,7 +36,7 @@ class PostController extends Controller
             10
         );
 
-        echo 'php';
+      
 
         return $this->render('post/index.html.twig', array(
             'posts' => $posts,
